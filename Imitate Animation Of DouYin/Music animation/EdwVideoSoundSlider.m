@@ -23,7 +23,7 @@
 
 - (void)initUI{
     _sliderView = [[UIView alloc]init];
-    _sliderView.backgroundColor = [UIColor redColor];
+    _sliderView.backgroundColor = [UIColor yellowColor];
     [self addSubview:_sliderView];
     [_sliderView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.left.bottom.equalTo(self);

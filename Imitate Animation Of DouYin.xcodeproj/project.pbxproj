@@ -13,8 +13,6 @@
 		2EFB7F0E21800FB300C30814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EFB7F0D21800FB300C30814 /* Assets.xcassets */; };
 		2EFB7F1121800FB300C30814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EFB7F0F21800FB300C30814 /* LaunchScreen.storyboard */; };
 		2EFB7F1421800FB400C30814 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB7F1321800FB400C30814 /* main.m */; };
-		2EFB7F1C2180116300C30814 /* EdwTableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB7F1B2180116300C30814 /* EdwTableViewVC.m */; };
-		2EFB7F1F2180118000C30814 /* EdwTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB7F1E2180118000C30814 /* EdwTableViewCell.m */; };
 		2EFB7F22218011C200C30814 /* EdwVideoSoundSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB7F21218011C200C30814 /* EdwVideoSoundSlider.m */; };
 		2EFB7F26218013BC00C30814 /* UIView+EdwFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB7F25218013BC00C30814 /* UIView+EdwFrame.m */; };
 		2EFB7F2A2180147800C30814 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB7F292180147800C30814 /* NSString+Extension.m */; };
@@ -35,10 +33,6 @@
 		2EFB7F1021800FB300C30814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EFB7F1221800FB400C30814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EFB7F1321800FB400C30814 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2EFB7F1A2180116300C30814 /* EdwTableViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EdwTableViewVC.h; sourceTree = "<group>"; };
-		2EFB7F1B2180116300C30814 /* EdwTableViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EdwTableViewVC.m; sourceTree = "<group>"; };
-		2EFB7F1D2180118000C30814 /* EdwTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EdwTableViewCell.h; sourceTree = "<group>"; };
-		2EFB7F1E2180118000C30814 /* EdwTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EdwTableViewCell.m; sourceTree = "<group>"; };
 		2EFB7F20218011C200C30814 /* EdwVideoSoundSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EdwVideoSoundSlider.h; sourceTree = "<group>"; };
 		2EFB7F21218011C200C30814 /* EdwVideoSoundSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EdwVideoSoundSlider.m; sourceTree = "<group>"; };
 		2EFB7F232180131300C30814 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -90,7 +84,6 @@
 		2EFB7F0321800FB100C30814 /* Imitate Animation Of DouYin */ = {
 			isa = PBXGroup;
 			children = (
-				2EFB7F2B2180162C00C30814 /* System Sound */,
 				2EFB7F2C2180165D00C30814 /* Music animation */,
 				2EFB7F272180144000C30814 /* Catogery */,
 				2EFB7F0421800FB100C30814 /* AppDelegate.h */,
@@ -116,19 +109,6 @@
 			path = Catogery;
 			sourceTree = "<group>";
 		};
-		2EFB7F2B2180162C00C30814 /* System Sound */ = {
-			isa = PBXGroup;
-			children = (
-				2EFB7F1A2180116300C30814 /* EdwTableViewVC.h */,
-				2EFB7F1B2180116300C30814 /* EdwTableViewVC.m */,
-				2EFB7F1D2180118000C30814 /* EdwTableViewCell.h */,
-				2EFB7F1E2180118000C30814 /* EdwTableViewCell.m */,
-				2EFB7F20218011C200C30814 /* EdwVideoSoundSlider.h */,
-				2EFB7F21218011C200C30814 /* EdwVideoSoundSlider.m */,
-			);
-			path = "System Sound";
-			sourceTree = "<group>";
-		};
 		2EFB7F2C2180165D00C30814 /* Music animation */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +120,8 @@
 				2EFB7F31218018D300C30814 /* EdwVideoLanternView.m */,
 				2EFB7F332180196B00C30814 /* EdwVideoMusicView.h */,
 				2EFB7F342180196B00C30814 /* EdwVideoMusicView.m */,
+				2EFB7F20218011C200C30814 /* EdwVideoSoundSlider.h */,
+				2EFB7F21218011C200C30814 /* EdwVideoSoundSlider.m */,
 			);
 			path = "Music animation";
 			sourceTree = "<group>";
@@ -260,8 +242,6 @@
 				2EFB7F32218018D300C30814 /* EdwVideoLanternView.m in Sources */,
 				2EFB7F26218013BC00C30814 /* UIView+EdwFrame.m in Sources */,
 				2EFB7F352180196B00C30814 /* EdwVideoMusicView.m in Sources */,
-				2EFB7F1F2180118000C30814 /* EdwTableViewCell.m in Sources */,
-				2EFB7F1C2180116300C30814 /* EdwTableViewVC.m in Sources */,
 				2EFB7F2A2180147800C30814 /* NSString+Extension.m in Sources */,
 				2EFB7F2F2180168B00C30814 /* EdwPlayerProgressView.m in Sources */,
 			);
